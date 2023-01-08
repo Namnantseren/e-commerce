@@ -1,9 +1,15 @@
-.App {
+/* .App {
   display: flex;
-  /* text-align: center; */
+  text-align: center;
   justify-content: center;
   align-items: center;
+} */
+
+.group-laptop {
+  justify-content: center;
 }
+
+
 
 .App-logo {
   height: 40vmin;
