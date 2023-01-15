@@ -1,4 +1,5 @@
 import './SectionStyle/style.css'
+import Add from '../AddData/Add'
 
 export default function section() {
     return(
@@ -16,28 +17,7 @@ export default function section() {
                 </div>
             </div>
             <div className='midselector flex'>
-                <div className='cards'>
-                    <div>
-                        <img src="" alt="" />
-                    </div>
-                    <div className='containerlilSelector flex'>
-                        <div className="lilselector">
-                            <p className='first'>Camera</p>
-                            <p className='second'>Sony Alpha iii</p>
-                            <p className='third'>$11,70</p>
-                        </div>
-                        <div className='innershopselector'>
-                            <img src="shopping.svg" alt="pic" />
-                        </div>
-                    </div>
-                </div>
-                <div className='cards'></div>
-                <div className='cards'></div>
-                <div className='cards'></div>
-                <div className='cards'></div>
-                <div className='cards'></div>
-                <div className='cards'></div>
-                <div className='cards'></div>
+                <Add/>
             </div>
         </div>
     )

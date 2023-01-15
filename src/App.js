@@ -4,7 +4,7 @@ import Slide from './Slider/Slide';
 import Leg from './Leg/Leg.js';
 import Footer from './Footer/Footer';
 import Section from './Section/Section';
-
+// import Add from './AddData/Add'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Nav/>
         <Slide/>
         <Section/>
+        {/* <Add/> */}
         <div className='group-laptop flex'>
           <img src="./group.svg" alt="" />
         </div>
